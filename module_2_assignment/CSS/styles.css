@@ -1,0 +1,185 @@
+section {
+	background-color: grey;
+	color: black ;
+	border: 1px solid black;
+	
+	box-sizing: border-box;
+}
+header{
+	text-align: center;
+}
+
+.Chicken{
+	/*padding: 5px 10px 5px 10px;*/
+	/*width: 30px;*/
+
+	box-sizing: content-box;
+	background-color: pink; 
+	border-left: 1px solid black;
+    border-bottom: 1px solid black;
+	float:right;
+	width: 100px;
+	padding: 5px 40px 5px 40px;
+	font-family: Georgia,sans-serif;
+	font-size: 110%;
+
+
+  }
+  .sub-head {
+  	margin-top:5px;
+	margin-bottom:5px;
+	font-weight: bold;
+	box-sizing: content-box;
+	text-align: center;
+
+
+
+  }
+  #Common{
+  	clear: both;
+  	padding: 5%;
+  	margin: 0;
+   }
+
+   .Beef{
+	/*padding: 5px 10px 5px 10px;*/
+	/*width: 30px;*/
+
+	box-sizing: content-box;
+	background-color: red; 
+	border-left: 1px solid black;
+    border-bottom: 1px solid black;
+	float:right;
+	width: 100px;
+	padding: 5px 40px 5px 40px;
+	font-size: 110%;
+	font-family: Georgia,sans-serif;
+   }
+
+   .sub-head1 {
+  	margin-top:5px;
+	margin-bottom:5px;
+	font-weight: bold;
+	box-sizing: content-box;
+	text-align: center;
+	color: white;
+
+     }
+
+
+
+
+
+     .Sushi{
+	/*padding: 5px 10px 5px 10px;*/
+	/*width: 30px;*/
+
+	box-sizing: content-box;
+	background-color: #FFFF99; 
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+	float:right;
+	width: 100px;
+	padding: 5px 40px 5px 40px;
+	font-family: Georgia,sans-serif;
+	font-size: 110%;
+
+   }
+
+   .sub-head2 {
+  	margin-top:5px;
+	margin-bottom:5px;
+	font-weight: bold;
+	box-sizing: content-box;
+	text-align: center;
+
+
+  }
+
+  @media(min-width: 992px){
+
+  	header{
+
+  		 height: 20%;
+  		margin-bottom: 5%;
+  		margin-top: 5%;
+  	}
+  	.s1 , .s2 , .s3  
+  	  	{width: 30%;
+  	     }
+  	     .s1, .s2 {
+  	     	margin-right: 2.5%;
+  	     }
+  	     .s1{
+  	     	margin-left: 2.5%;
+  	     }
+       
+         body{
+       
+            margin: 0; 
+            padding: 0;
+         }
+ 
+  	.s1 , .s2 , .s3 {
+  		float: left;
+
+  	}
+  }
+
+  	@media(min-width:768px)  and (max-width:991px){
+  		header{
+        height: 20%;
+  		margin-bottom: 5%;
+  		margin-top: 5%;
+  	}
+
+  			.s1 , .s2  {
+  				width: 45%;
+  		       float: left;
+  		       margin-bottom: 3.33%;
+
+  	          }
+  	          .s1  {
+  	          	margin-right: 3.33%;
+  	          	margin-left: 3.33%;
+
+                 }
+                 .s3{
+                 	clear: both;
+                 	margin-right: 3.33%;
+  	          	    margin-left: 3.33%;
+
+                 }
+  		
+  		 body{
+       
+            margin: 0; 
+            padding: 0;
+         }
+
+  	}
+
+  	@media(max-width: 767px){
+  		header{
+
+  		 height: 20%;
+  		margin-bottom: 5%;
+  		margin-top: 5%;
+  	}
+
+  		.s1 , .s2 , .s3{
+  			width: 80%;
+  			margin-right: 10%;
+  			margin-left: 10%;
+  			margin-bottom: 5%;
+
+  		}
+  		 body{
+       
+            margin: 0; 
+            padding: 0;
+            margin-bottom: 5%;
+         }
+  	}
+
