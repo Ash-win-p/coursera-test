@@ -2,7 +2,7 @@ section {
 	background-color: grey;
 	color: black ;
 	border: 1px solid black;
-	
+	font-family: Helvetica;
 	box-sizing: border-box;
 }
 header{
@@ -21,7 +21,7 @@ header{
 	width: 100px;
 	padding: 5px 40px 5px 40px;
 	font-family: Georgia,sans-serif;
-	font-size: 110%;
+	font-size: 125%;
 
 
   }
@@ -39,6 +39,8 @@ header{
   	clear: both;
   	padding: 5%;
   	margin: 0;
+  	font-weight: bold;
+  	font-size: 105%;
    }
 
    .Beef{
@@ -52,7 +54,7 @@ header{
 	float:right;
 	width: 100px;
 	padding: 5px 40px 5px 40px;
-	font-size: 110%;
+	font-size: 125%;
 	font-family: Georgia,sans-serif;
    }
 
@@ -83,7 +85,7 @@ header{
 	width: 100px;
 	padding: 5px 40px 5px 40px;
 	font-family: Georgia,sans-serif;
-	font-size: 110%;
+	font-size: 125%;
 
    }
 
