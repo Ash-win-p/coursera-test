@@ -1,6 +1,6 @@
 section {
 	background-color: grey;
-	color: black ;
+	color: black;
 	border: 1px solid black;
 	font-family: Helvetica;
 	box-sizing: border-box;
@@ -39,8 +39,8 @@ header{
   	clear: both;
   	padding: 5%;
   	margin: 0;
-  	font-weight: bold;
-  	font-size: 105%;
+  	
+  	
    }
 
    .Beef{
@@ -121,6 +121,7 @@ header{
        
             margin: 0; 
             padding: 0;
+             margin-bottom: 5%;
          }
  
   	.s1 , .s2 , .s3 {
@@ -158,6 +159,7 @@ header{
        
             margin: 0; 
             padding: 0;
+             margin-bottom: 5%;
          }
 
   	}
