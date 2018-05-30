@@ -9,8 +9,15 @@ font-family: 'Oxygen', sans-serif;
   margin-bottom: 0;
   line-height: .75;
 }
-
-
+h1.body1
+{
+	font-family:Georgia,sans-serif;
+	font-weight: bold;
+}
+h3.common
+{
+	font-weight: bold;
+}
 
 
 .container .navbar-header
