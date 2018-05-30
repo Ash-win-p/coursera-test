@@ -1,0 +1,138 @@
+.navbar-brand h1 { /* Restaurant name */
+font-family: 'Oxygen', sans-serif;
+  color: black;
+  font-size: 1.5em;
+  
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+
+
+.container .navbar-header
+{   margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+	}
+	
+	#collapsable-nav #nav-list li
+	{   background-color: white;
+		border-top:  1px solid black;
+		border-bottom: 1px solid black;
+		border-left: 2px solid black ;
+		border-right: 2px solid black;
+	}
+
+	.navbar-nav 
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	li a
+	{
+		color: black;
+		font-weight: bold;
+	}
+ #collapsable-nav #nav-list li:nth-child(1)
+ {
+     border-top: 2px solid black;
+ }
+  #collapsable-nav #nav-list li:nth-child(3)
+ {
+     border-bottom:  2px solid black;
+ }
+ 
+	
+      
+
+header,#header-nav
+{
+	background-color: grey;
+	padding-bottom: 0;
+	/*height: 80px;*/
+	border-radius: 0;
+	border-bottom: 0;
+}
+
+.container section
+{
+font-weight: bold;
+font-family: Helvetica;
+background-color: #D3D3D3;
+margin-bottom: 40px;
+}
+.container p
+{
+	font-size: 1.2em;
+	
+}
+
+
+@media (min-width: 992px) {
+.container
+{box-sizing: content-box;
+	padding: 0;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	width: 97%;
+}
+.container .row {
+
+
+
+width:100%;
+margin: 0;
+
+}
+
+}
+
+
+@media (max-width: 991px){
+.container
+{box-sizing: content-box;
+	padding: 0;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	width: 97%;
+}
+.container .row {
+
+
+
+width:100%;
+margin: 0;
+
+}
+}
+
+ 
+ @media (max-width: 767px ){
+ 	.navbar-brand h1
+ 	{
+ 		margin-left: +15px;
+
+ }
+.container .row
+{padding-right:10%; 
+	padding-left:10%;
+	
+}
+
+.container section
+{   
+	padding-right:5%; 
+	padding-left:5%;
+	padding-bottom:5%;
+	margin-bottom: 10%;
+
+  
+}
+
+}
