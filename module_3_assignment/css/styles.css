@@ -1,7 +1,14 @@
+body
+{ background-color: #F5DEB3;
+
+}
+
+
+
 .navbar-brand h1 { /* Restaurant name */
 font-family: 'Oxygen', sans-serif;
   color: black;
-  font-size: 1.5em;
+  font-size: 2em;
   
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -13,11 +20,27 @@ h1.body1
 {
 	font-family:Georgia,sans-serif;
 	font-weight: bold;
+	margin-bottom: 20px;
+	background-color: #FFD700;
+	margin-right: auto;
+	margin-left: auto;
+	width: 30%;
+
 }
-h3.common
-{
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #ADFF2F;
+}
+p.common1
+{   margin-top: 10px;
+	font-size: 2em;
 	font-weight: bold;
+	width: 20%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FF4500;
 }
+
+
 
 
 .container .navbar-header
@@ -60,7 +83,7 @@ h3.common
 
 header,#header-nav
 {
-	background-color: grey;
+	background-color: #B22222;
 	padding-bottom: 0;
 	/*height: 80px;*/
 	border-radius: 0;
@@ -73,6 +96,7 @@ font-weight: bold;
 font-family: Helvetica;
 background-color: #D3D3D3;
 margin-bottom: 40px;
+border: 5px blue solid;
 }
 .container p
 {
