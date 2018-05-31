@@ -32,8 +32,8 @@ h1.body1
     border: 1px solid #ADFF2F;
 }
 p.common1
-{  box-sizing: content-box;
-	padding: 3%;
+{  
+	padding-bottom: 2px;
    margin-top: 10px;
 	font-size: 2em;
 	font-weight: bold;
