@@ -16,7 +16,7 @@ font-family: 'Oxygen', sans-serif;
   margin-bottom: 0;
   line-height: .75;
 }
-h1.body1
+p.body1
 {
 	font-family:Georgia,sans-serif;
 	font-weight: bold;
@@ -26,23 +26,13 @@ h1.body1
 	margin-left: auto;
 	width: 30%;
 	border: 2px black solid;
+	font-size: 3em;
 
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #ADFF2F;
 }
-p.common1
-{  
-	padding-bottom: 2px;
-   margin-top: 10px;
-	font-size: 2em;
-	font-weight: bold;
-	width: 20%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #FF4500;
-	border: 2px black solid;
-}
+
 
 
 
@@ -125,6 +115,18 @@ width:100%;
 margin: 0;
 
 }
+p.common1
+{  
+	padding-bottom: 2px;
+   margin-top: 10px;
+	font-size: 1.8em;
+	font-weight: bold;
+	width: 20%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FF4500;
+	border: 2px black solid;
+}
 
 }
 
@@ -144,6 +146,18 @@ margin: 0;
 width:100%;
 margin: 0;
 
+}
+p.common1
+{  
+	padding-bottom: 2px;
+   margin-top: 10px;
+	font-size: 1.8em;
+	font-weight: bold;
+	width: 20%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FF4500;
+	border: 2px black solid;
 }
 }
 
@@ -169,5 +183,32 @@ margin: 0;
 
   
 }
+p.body1
+{
+	font-family:Georgia,sans-serif;
+	font-weight: bold;
+	margin-bottom: 20px;
+	background-color: #FFD700;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	border: 2px black solid;
+	font-size: 2em;
+
+}
+p.common1
+{  
+	padding-bottom: 2px;
+   margin-top: 10px;
+	font-size: 1.6em;
+	font-weight: bold;
+	width: 45%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FF4500;
+	border: 2px black solid;
+
+}
+
 
 }
