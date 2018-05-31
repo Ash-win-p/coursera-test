@@ -25,19 +25,23 @@ h1.body1
 	margin-right: auto;
 	margin-left: auto;
 	width: 30%;
+	border: 2px black solid;
 
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #ADFF2F;
 }
 p.common1
-{   margin-top: 10px;
+{  box-sizing: content-box;
+	padding: 3%;
+   margin-top: 10px;
 	font-size: 2em;
 	font-weight: bold;
 	width: 20%;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #FF4500;
+	border: 2px black solid;
 }
 
 
