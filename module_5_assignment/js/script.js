@@ -124,8 +124,8 @@ function buildAndShowHomeHTML (categories) {
       // of how to do that.
       // ....
     
-    var chosenCategoryShortName  = chooseRandomCategory(dc.loadMenuCategories);
-    var short_name = chosenCategoryShortName.short_name;
+    var chosenCategoryShortName  = chooseRandomCategory(categories);
+    var short_name = "'"+chosenCategoryShortName.short_name + "'";
     var homeHtmlToInsertIntoMainPage =  insertProperty(homeHtml,"randomCategoryShortName",short_name);
     insertHtml("#main-content",homeHtmlToInsertIntoMainPage);
     },
